@@ -2,5 +2,12 @@
 </title>
 <html>
     <body>
+        <script language = "javascript" type = "text/javascript">
+            document.write("<table border='1'><tr><td>Степень</td><td>Результат</td></tr>");
+            for (var i = 0; i < 11; i++){
+				document.write ("<tr><td>2<sup><small>" + i + "</small></sup></td><td>" + Math.pow(2, i) + "</td></tr>");
+            }
+            document.write("</table>");
+        </script>
     </body>
 </html>
